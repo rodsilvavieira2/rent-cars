@@ -1,4 +1,33 @@
-# Cadastro de carro
+# Rent cars
+
+Esse projeto é uma aplicação para alugar carros. Com cadastro de clientes e carros, é possível alugar um carro para um cliente. Para desenvolvimento do projeto, foi utilizado os conceitos do SOLID e TDD, AWS CES para enviar emails ou Ethereum para testes locais, AWS S3 para armazenar arquivos ou localmente para o desenvolvimento ,Docker para gerar um ambiente de desenvolvimento mais completo e Sentry para monitorar erros.
+
+---
+
+# Database Schema
+![database-schema](./diagrama.png)
+
+# Tecnologias utilizadas
+- Express
+- Node
+- PostgreSQL
+- Docker
+- Docker Compose
+- AWS S3
+- AWS SES
+- Ethereum
+- Sentry
+- Jest
+- NodeMailer
+- JWT
+- Bcrypt
+- Cors
+- Babel
+- Typescript
+
+
+# Requesitos
+## Cadastro de carro
 
 **RF**
 - Deve ser possível cadastrar um novo carro.
@@ -9,7 +38,7 @@
 - O carro deve ser cadastrado, por padrão, com disponibilidade.
 - O usuário responsável pelo cadastro deve ser um usuário administrador.
 
-# Listagem de carros
+## Listagem de carros
 
 **RF** 
 - Deve ser possível listar todos os carros disponíveis
@@ -21,7 +50,7 @@
 - O usuário não precisar estar logado no sistema.
 
 
-# Cadastro de Especificação no carro
+## Cadastro de Especificação no carro
 
 **RF**
 - Deve ser possível cadastrar uma especificação para um carro
@@ -33,7 +62,7 @@
 - O usuário responsável pelo cadastro deve ser um usuário - administrador.
 
 
-# Cadastro de imagens do carro
+## Cadastro de imagens do carro
 
 **RF**
 - Deve ser possível cadastrar a imagem do carro
@@ -46,7 +75,7 @@
 - O usuário responsável pelo cadastro deve ser um usuário - administrador.
 
 
-# Alugel de carro
+## Alugel de carro
 
 **RF**
 - Deve ser possível cadastrar um aluguel
@@ -60,7 +89,7 @@
 - Ao realizar um aluguel, o status do carro deverá ser - alterado para indisponível
 
 
-# Devolução de carro 
+## Devolução de carro 
 
 **RF**
 - Deve ser possível realizar a devolução de um carro
@@ -75,7 +104,7 @@
 - O usuário deve estar logado na aplicação
 
 
-# Listagem de Alugueis para usuário
+## Listagem de Alugueis para usuário
 
 **RF**
 - Deve ser possível realizar a busca de todos os alugueis para o usuário
@@ -84,7 +113,7 @@
 - O usuário deve estar logado na aplicação
 
 
-# Recuperar Senha
+## Recuperar Senha
 
 **RF**
 - Deve ser possível o usuário recuperar a senha informando o e-mail
